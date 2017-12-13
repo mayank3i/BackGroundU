@@ -1,0 +1,17 @@
+{
+"name":"BackGroundU",
+"version":"1.0",
+"manifest_version": 2,
+
+"description":"first extension",
+"icons":{
+    "128":"WhatsApp_logo-color-vertical.svg_.jpg"
+},
+"browser_action":{
+    "defult_action":"always have something to do",
+    "default_popup":"popup.html"
+},
+"permissions":[
+    "http://*/*", "https://*/*"
+]
+}
